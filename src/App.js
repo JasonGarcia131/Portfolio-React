@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import ProjectCard from './components/ProjectCard';
+import { ProjectData } from './ProjectData';
 
 function App() {
+
+  console.log("imgurl1.....", ProjectData[0].imgUrl1)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <main>
+        <h1>Jason Garcia</h1>
+        <h2>Projects</h2>
+        <ProjectCard url1={ProjectData[0].imgUrl1} url2={ProjectData[0].imgUrl2} url3={ProjectData[0].imgUrl3} name={ProjectData[0].name} description={ProjectData[0].description} codeLink={ProjectData[0].codeLink} pageLink={ProjectData[0].pageLink}/>
+        {/* <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/> */}
+      </main>
     </div>
   );
 }
