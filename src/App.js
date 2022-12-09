@@ -3,7 +3,6 @@ import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
 import { ProjectData } from './ProjectData';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 
 function App() {
 

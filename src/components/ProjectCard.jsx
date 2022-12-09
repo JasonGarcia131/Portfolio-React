@@ -5,7 +5,6 @@ function ProjectCard(props) {
 
     const { url1, url2, url3, name, description, codeLink, pageLink } = props;
 
-    console.log("img1", url1)
     //State variable will dynamically change the background image of a div when clicked.
     const [projectImg, setProjectImg] = useState({
         url: url1,
@@ -16,7 +15,6 @@ function ProjectCard(props) {
     //Updates the state variable to change background image
     //The id of the clicked target is the url path to the image.
     const handleImgClicked = (e) => {
-        console.log("e.target.id", e.target.id)
         setProjectImg({ ...projectImg, url: `${e.target.id}` })
     }
 

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 
 function Header() {
 
-
-    const pathname = window.location.pathname
-    
-    const home = pathname === "/" ? <p style={{opacity: ".5"}}><Link to="/">Home</Link></p> : <p><Link to="/">Home</Link></p>
-    const aboutMe = pathname === "/AboutMe" ? <p style={{ opacity: ".5"}}><Link to="/AboutMe">About Me</Link></p> : <p><Link to="/AboutMe">About Me</Link></p>
-    const resume = pathname === "/Resume" ? <p style={{ opacity: ".5"}}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
+    const BASEURL = "https://jasongarcia131.github.io/Portfolio-React/#/"
+    const pathname = window.location.href
+        
+    const home = pathname === `${BASEURL}` ? <p style={{opacity: ".5"}}><Link to="/">Home</Link></p> : <p><Link to="/">Home</Link></p>
+    const aboutMe = pathname === `${BASEURL}AboutMe` ? <p style={{ opacity: ".5"}}><Link to="/AboutMe">About Me</Link></p> : <p><Link to="/AboutMe">About Me</Link></p>
+    const resume = pathname === `${BASEURL}Resume` ? <p style={{ opacity: ".5"}}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
 
     return (
         <header>
