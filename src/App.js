@@ -2,20 +2,52 @@ import './App.css';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
 import { ProjectData } from './ProjectData';
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function App() {
 
-  console.log("imgurl1.....", ProjectData[0].imgUrl1)
+  useEffect(()=>{
+    fetchedData();
+  },[])
+
+   const fetchedData = async ()=>{
+      const dataResponse = await fetch("https://destifyfunc-api-dev.azurewebsites.net/api/swagger.json",{
+        Method: "GET",
+        withCredentials: true,
+        Headers: {
+          "x-functions-key": "jay",
+          "Accept": 'application/json',
+          'Content-Type': 'application/json'
+        },
+      })
+      const response = await dataResponse.json();
+      console.log("response", response)
+    }
+
+  const mappedProjectCards = ProjectData.map((project, i) => {
+    return (
+      <div className="project-card-wrapper" key={i}>
+        <ProjectCard url1={project.imgUrl1} url2={project.imgUrl2} url3={project.imgUrl3} name={project.name} description={project.description} codeLink={project.codeLink} pageLink={project.pageLink} />
+      </div>
+    )
+  })
+
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <main>
-        <h1>Jason Garcia</h1>
-        <h2>Projects</h2>
-        <ProjectCard url1={ProjectData[0].imgUrl1} url2={ProjectData[0].imgUrl2} url3={ProjectData[0].imgUrl3} name={ProjectData[0].name} description={ProjectData[0].description} codeLink={ProjectData[0].codeLink} pageLink={ProjectData[0].pageLink}/>
-        {/* <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/> */}
+        <div className='about-me'>
+          <h1>Jason Garcia</h1>
+          <p>Junior fullstack developer eager to collaborate and build.</p>
+          <Link to="/AboutMe">About Me</Link>
+        </div>
+        <div className='project-container'>
+          <h2>Projects</h2>
+          <div className='project-container-scroll'>
+            {mappedProjectCards}
+          </div>
+        </div>
       </main>
     </div>
   );
