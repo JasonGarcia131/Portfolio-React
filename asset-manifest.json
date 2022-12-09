@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cded2888.css",
+    "main.js": "/static/js/main.593c65b6.js",
+    "static/js/787.d931acd0.chunk.js": "/static/js/787.d931acd0.chunk.js",
+    "static/media/blackjack-homepage-thumbnail.png": "/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
+    "static/media/rules-thumbnail.png": "/static/media/rules-thumbnail.44a5585d34b5aeee09e3.png",
+    "static/media/gameplay-thumbnail.png": "/static/media/gameplay-thumbnail.bfae290d1cfcf0a1834b.png",
+    "static/media/containerunloadingplan-homepage-thumbnail.png": "/static/media/containerunloadingplan-homepage-thumbnail.c1c63c3136e675f3ff88.png",
+    "static/media/plan-thumbnail.png": "/static/media/plan-thumbnail.0b6622e48d4277a92d60.png",
+    "static/media/error-message-thumbnail.png": "/static/media/error-message-thumbnail.1084c3f3528f70fbdeef.png",
+    "static/media/userlogin-homepage-thumbnail.png": "/static/media/userlogin-homepage-thumbnail.e58f3b6c4fc86fcd9d52.png",
+    "static/media/login-thumbnail.png": "/static/media/login-thumbnail.f573e86e5af99de1de8a.png",
+    "static/media/users-thumbnail.png": "/static/media/users-thumbnail.588dd0dd6c6185280eb7.png",
+    "index.html": "/index.html",
+    "main.cded2888.css.map": "/static/css/main.cded2888.css.map",
+    "main.593c65b6.js.map": "/static/js/main.593c65b6.js.map",
+    "787.d931acd0.chunk.js.map": "/static/js/787.d931acd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cded2888.css",
+    "static/js/main.593c65b6.js"
+  ]
+}
