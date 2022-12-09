@@ -7,24 +7,6 @@ import { useEffect } from 'react';
 
 function App() {
 
-  useEffect(()=>{
-    fetchedData();
-  },[])
-
-   const fetchedData = async ()=>{
-      const dataResponse = await fetch("https://destifyfunc-api-dev.azurewebsites.net/api/swagger.json",{
-        Method: "GET",
-        withCredentials: true,
-        Headers: {
-          "x-functions-key": "jay",
-          "Accept": 'application/json',
-          'Content-Type': 'application/json'
-        },
-      })
-      const response = await dataResponse.json();
-      console.log("response", response)
-    }
-
   const mappedProjectCards = ProjectData.map((project, i) => {
     return (
       <div className="project-card-wrapper" key={i}>
