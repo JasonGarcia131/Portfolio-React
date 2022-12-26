@@ -33,7 +33,7 @@ export const ProjectData = [
         imgUrl2: img5,
         imgUrl3: img6,
         name: "Register/Login",
-        description: " A mock user log in and register form CRUD app. React front-end with express backend and heroku-postgres for the database.This was a fun app to develop as I got more familiar with endpoints. My favorite code in the app was the pop up confirmation message when removing a user from the database.",
+        description: " What started as a simple login/ register form evolved into a social media app for horoscope enthusiasts. Postgres, Express, React, Nodejs tech stack. This app has given me the experience to work with git and organize my project workflow.",
         codeLink: "https://github.com/JasonGarcia131/UserLogin",
         pageLink: "#"
     },

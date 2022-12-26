@@ -12,9 +12,9 @@ function About() {
                 </div>
                 <div className="description-wrapper">
                     <h1>About Me</h1>
-                    <p> I've worked in management as a warehouse supervisor for 5+ years and recently decided to pursue a career in software development. I enrolled in a bootcamp program offered through California State University Long Beach and immediately became passionate.
-                        I completed the 9 month course that taught me the fundemetals of software development and exposed me to some advanced topics. With the discipline I've gained from my previous jobs,
-                        I am ready to branch off into a new career path.
+                    <p> I've worked in management as a warehouse supervisor for 5+ years. I Completed a software development program offered through California State University Long Beach.
+                        I've built full stack applications using Javascript, React, Redux, Node/Express, Mongoose/Postgres. I have experience using the git terminal and collaborating in a team. Finding solutions to
+                        problems is self rewarding for me so challenges are always accepted. 
                     </p>
                     <Link to="/">Home</Link>
                     <a href="https://www.linkedin.com/in/jason-garcia-00b71b245/">LinkedIn</a>

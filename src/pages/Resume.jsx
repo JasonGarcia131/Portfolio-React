@@ -11,8 +11,8 @@ function Resume() {
                     <p>
                         5+ years warehouse supervisor experience. Job responsibilities included training, monitoring, and leading teams of 6-15.
                         Environment is very fast paced and agile. Problem solving was a key skill to have in order to execute daily tasks.
-                        I've completed a bootcamp program that exposed me to full stack development technologies like Javascript, Typescript, Express, React, Python, Flask, and Sass.
-                        We built single page applications as well as full stack MERN & PERN applications and deployed them through Heroku and AWS. Also, experience with
+                        I've completed a program that exposed me to full stack development technologies like Javascript, Typescript, Express, React, Python, Flask, and Sass.
+                        I built single page applications as well as full stack MERN & PERN applications and deployed them through Heroku and AWS. Also, experience with
                         git commands in the terminal.
                     </p>
                 </article>
