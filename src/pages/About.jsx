@@ -18,6 +18,7 @@ function About() {
                     </p>
                     <Link to="/">Home</Link>
                     <a href="https://www.linkedin.com/in/jason-garcia-00b71b245/">LinkedIn</a>
+                    <a href="https://github.com/JasonGarcia131/Portfolio-React">Portfolio Source Code</a>
                 </div>
             </div>
         </div>
