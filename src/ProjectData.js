@@ -7,9 +7,21 @@ import img6 from "./images/users-thumbnail.png"
 import img7 from "./images/containerunloadingplan-homepage-thumbnail.png"
 import img8 from "./images/plan-thumbnail.png"
 import img9 from "./images/error-message-thumbnail.png"
+import img10 from "./images/startsHomePage.png"
+import img11 from "./images/signup-thumbnail.png"
+import img12 from "./images/profile-thumbnail.png"
 
 
 export const ProjectData = [
+    {
+        imgUrl1: img10,
+        imgUrl2: img11,
+        imgUrl3: img12,
+        name: "Stars",
+        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme can be for goal setting, self-affirmations, positive notes. The shadow theme gives the user a space to be vulnerable. Tech stack MERN. Deployment date by 1/20/2023.",
+        codeLink: "https://github.com/JasonGarcia131/UserLogin",
+        pageLink: "#"
+    },
     {
         imgUrl1: img1,
         imgUrl2: img2,
@@ -24,17 +36,9 @@ export const ProjectData = [
         imgUrl2: img8,
         imgUrl3: img9,
         name: "Container Unloading Plan",
-        description: " This app was created with react and deployed with heroku. Its functionality is to take dimensions of boxes and generate a floor plan to unload containers in a warehouse environment. This app functionality was integrated into our companies system and is being used in our warehouse.  ",
+        description: "This app is a tool to be used in a warehouse environment. User inputs box dimensions and total boxes and the app generates a floor plan of columns and rows for the boxes. I created this app to help our warehouse unload containers more efficiently. Deploying in progress.",
         codeLink: "https://github.com/JasonGarcia131/Container-Unloading-Planner.git",
         pageLink: "https://container-unloading-plan.herokuapp.com/"
     },
-    {
-        imgUrl1: img4,
-        imgUrl2: img5,
-        imgUrl3: img6,
-        name: "Register/Login",
-        description: " What started as a simple login/ register form evolved into a social media app for horoscope enthusiasts. Postgres, Express, React, Nodejs tech stack. This app has given me the experience to work with git and organize my project workflow.",
-        codeLink: "https://github.com/JasonGarcia131/UserLogin",
-        pageLink: "#"
-    },
+   
 ]
