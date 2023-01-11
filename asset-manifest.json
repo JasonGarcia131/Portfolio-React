@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.3cf3bdd7.css",
-    "main.js": "/Portfolio-React/static/js/main.d6569aba.js",
+    "main.js": "/Portfolio-React/static/js/main.38fd825a.js",
     "static/js/787.d931acd0.chunk.js": "/Portfolio-React/static/js/787.d931acd0.chunk.js",
+    "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
     "static/media/rules-thumbnail.png": "/Portfolio-React/static/media/rules-thumbnail.44a5585d34b5aeee09e3.png",
+    "static/media/signup-thumbnail.png": "/Portfolio-React/static/media/signup-thumbnail.356079366b8c0d666464.png",
     "static/media/gameplay-thumbnail.png": "/Portfolio-React/static/media/gameplay-thumbnail.bfae290d1cfcf0a1834b.png",
+    "static/media/profile-thumbnail.png": "/Portfolio-React/static/media/profile-thumbnail.edef2f7612cc14dbb0eb.png",
     "static/media/containerunloadingplan-homepage-thumbnail.png": "/Portfolio-React/static/media/containerunloadingplan-homepage-thumbnail.c1c63c3136e675f3ff88.png",
     "static/media/plan-thumbnail.png": "/Portfolio-React/static/media/plan-thumbnail.0b6622e48d4277a92d60.png",
     "static/media/error-message-thumbnail.png": "/Portfolio-React/static/media/error-message-thumbnail.1084c3f3528f70fbdeef.png",
@@ -14,11 +17,11 @@
     "static/media/users-thumbnail.png": "/Portfolio-React/static/media/users-thumbnail.588dd0dd6c6185280eb7.png",
     "index.html": "/Portfolio-React/index.html",
     "main.3cf3bdd7.css.map": "/Portfolio-React/static/css/main.3cf3bdd7.css.map",
-    "main.d6569aba.js.map": "/Portfolio-React/static/js/main.d6569aba.js.map",
+    "main.38fd825a.js.map": "/Portfolio-React/static/js/main.38fd825a.js.map",
     "787.d931acd0.chunk.js.map": "/Portfolio-React/static/js/787.d931acd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cf3bdd7.css",
-    "static/js/main.d6569aba.js"
+    "static/js/main.38fd825a.js"
   ]
 }
