@@ -18,9 +18,9 @@ export const ProjectData = [
         imgUrl2: img11,
         imgUrl3: img12,
         name: "Stars",
-        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme can be for goal setting, self-affirmations, positive notes. The shadow theme gives the user a space to be vulnerable. Tech stack MERN. Deployment date by 1/20/2023.",
+        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme entries are for goals, self-affirmations, and positive notes. The shadow theme gives the user a space to be vulnerable. Tech stack: MERN.",
         codeLink: "https://github.com/JasonGarcia131/UserLogin",
-        pageLink: "#"
+        pageLink: "https://socialstars.onrender.com/"
     },
     {
         imgUrl1: img1,

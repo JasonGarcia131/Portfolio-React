@@ -30,7 +30,7 @@ function App() {
           <p>Fullstack developer eager to collaborate and build.</p>
           <Link to="/AboutMe">About Me</Link>
           <br/>
-          <a href="https://github.com/JasonGarcia131/Portfolio-React.git">Portfolio Code</a>
+          <a href="https://github.com/JasonGarcia131/Portfolio-React.git">Portfolio Source Code</a>
         </div>
         <div className='project-container'>
           <h2>Projects</h2>
