@@ -1,15 +1,16 @@
 import img1 from "./images/blackjack-homepage-thumbnail.png";
 import img2 from "./images/gameplay-thumbnail.png";
 import img3 from "./images/rules-thumbnail.png";
-import img4 from "./images/userlogin-homepage-thumbnail.png"
-import img5 from "./images/login-thumbnail.png"
-import img6 from "./images/users-thumbnail.png"
-import img7 from "./images/containerunloadingplan-homepage-thumbnail.png"
-import img8 from "./images/plan-thumbnail.png"
-import img9 from "./images/error-message-thumbnail.png"
-import img10 from "./images/startsHomePage.png"
-import img11 from "./images/signup-thumbnail.png"
-import img12 from "./images/profile-thumbnail.png"
+import img7 from "./images/containerunloadingplan-homepage-thumbnail.png";
+import img8 from "./images/plan-thumbnail.png";
+import img9 from "./images/error-message-thumbnail.png";
+import img10 from "./images/startsHomePage.png";
+import img11 from "./images/signup-thumbnail.png";
+import img12 from "./images/profile-thumbnail.png";
+import img13 from "./images/timecard-thumbnail.png";
+import img14 from "./images/monday-thumbnail.png";
+import img15 from "./images/error-thumbnail.png";
+
 
 
 export const ProjectData = [
@@ -30,6 +31,15 @@ export const ProjectData = [
         description: "Halloween themed multiplayer blackjack game. This game was built with vanilla javascript. Focused around object oriented programming and functional programming. First milestone project for my bootcamp course. I re-visit this project occasionally to reduce repeating code.",
         codeLink: "https://github.com/JasonGarcia131/Halloween-BlackJack",
         pageLink: "https://jasongarcia131.github.io/Halloween-BlackJack/"
+    },
+    {
+        imgUrl1: img13,
+        imgUrl2: img14,
+        imgUrl3: img15,
+        name: "Time-Card-Calculator",
+        description: "Tech stack: React. About App: This app calculates employees hours worked in a week. ",
+        codeLink: "https://github.com/JasonGarcia131/Time-Card-Calculator",
+        pageLink: "https://jasongarcia131.github.io/Time-Card-Calculator/"
     },
     {
         imgUrl1: img7,
