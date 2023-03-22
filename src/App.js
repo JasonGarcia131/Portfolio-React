@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
 import { ProjectData } from './ProjectData';
@@ -6,17 +7,21 @@ import { Link } from 'react-router-dom';
 
 function App() {
 
+  useEffect(()=>{},[])
+
   const mappedProjectCards = ProjectData.map((project, i) => {
+    const {imgUrl1, imgUrl2, imgUrl3, name, techStack, description, codeLink, pageLink} = project;
     return (
       <div className="project-card-wrapper" key={i}>
         <ProjectCard 
-          url1={project.imgUrl1} 
-          url2={project.imgUrl2} 
-          url3={project.imgUrl3} 
-          name={project.name} 
-          description={project.description} 
-          codeLink={project.codeLink} 
-          pageLink={project.pageLink} />
+          url1={imgUrl1} 
+          url2={imgUrl2} 
+          url3={imgUrl3} 
+          name={name} 
+          techStack={techStack}
+          description={description} 
+          codeLink={codeLink} 
+          pageLink={pageLink} />
       </div>
     )
   })

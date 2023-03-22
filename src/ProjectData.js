@@ -19,8 +19,9 @@ export const ProjectData = [
         imgUrl2: img11,
         imgUrl3: img12,
         name: "Stars",
-        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme entries are for goals, self-affirmations, and positive notes. The shadow theme gives the user a space to be vulnerable. Tech stack: MERN.",
-        codeLink: "https://github.com/JasonGarcia131/UserLogin",
+        techStack: "Mongoose, Express, React, Node",
+        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme entries are for goals, self-affirmations, and positive notes. The shadow theme are for deeper, more personal entries.",
+        codeLink: "https://github.com/JasonGarcia131/Stars-Frontend",
         pageLink: "https://socialstars.onrender.com/"
     },
     {
@@ -28,7 +29,8 @@ export const ProjectData = [
         imgUrl2: img2,
         imgUrl3: img3,
         name: "Halloween BlackJack",
-        description: "Halloween themed multiplayer blackjack game. This game was built with vanilla javascript. Focused around object oriented programming and functional programming. First milestone project for my bootcamp course. I re-visit this project occasionally to reduce repeating code.",
+        techStack: "Vanilla Javascript",
+        description: "Halloween themed multiplayer blackjack game. Focused around object oriented programming and functional programming. Users take turns drawing cards to sum their hand to 21.",
         codeLink: "https://github.com/JasonGarcia131/Halloween-BlackJack",
         pageLink: "https://jasongarcia131.github.io/Halloween-BlackJack/"
     },
@@ -37,7 +39,8 @@ export const ProjectData = [
         imgUrl2: img14,
         imgUrl3: img15,
         name: "Time-Card-Calculator",
-        description: "Tech stack: React. About App: This app calculates employees hours worked in a week. ",
+        techStack: "React",
+        description: "This app calculates employees hours worked in a week. Simple app designed specifically for the company I currently work for.",
         codeLink: "https://github.com/JasonGarcia131/Time-Card-Calculator",
         pageLink: "https://jasongarcia131.github.io/Time-Card-Calculator/"
     },
@@ -46,7 +49,8 @@ export const ProjectData = [
         imgUrl2: img8,
         imgUrl3: img9,
         name: "Container Unloading Plan",
-        description: "This app is a tool to be used in a warehouse environment. User inputs box dimensions and total boxes and the app generates a floor plan of columns and rows for the boxes. I created this app to help our warehouse unload containers more efficiently. Deploying in progress.",
+        techStack: "React",
+        description: "This app is a tool to be used in a warehouse environment. User inputs box dimensions and total boxes and the app generates a floor plan of columns and rows for the boxes. I created this app to help our warehouse unload containers more efficiently.",
         codeLink: "https://github.com/JasonGarcia131/Container-Unloading-Planner.git",
         pageLink: "https://container-unloading-plan.herokuapp.com/"
     },

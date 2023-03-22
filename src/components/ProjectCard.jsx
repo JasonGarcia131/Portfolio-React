@@ -3,14 +3,13 @@ import { useState } from "react";
 
 function ProjectCard(props) {
 
-    const { url1, url2, url3, name, description, codeLink, pageLink } = props;
+    const { url1, url2, url3, name, techStack, description, codeLink, pageLink } = props;
 
     //State variable will dynamically change the background image of a div when clicked.
     const [projectImg, setProjectImg] = useState({
         url: url1,
         selected: false
     });
-
 
     //Updates the state variable to change background image
     //The id of the clicked target is the url path to the image.
@@ -27,6 +26,8 @@ function ProjectCard(props) {
             </div>
             <div className="description">
                 <h3>{name}</h3>
+                <p>Tech Stack: {techStack}</p>
+                <br/>
                 <p>{description}</p>
             </div>
             <div className="project-links">
@@ -38,3 +39,5 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
+
+

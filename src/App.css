@@ -104,6 +104,11 @@ main{
   overflow:scroll;
 }
 
+.description > p{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .project-links {
   /* background-color: black; */
   width: 100%;

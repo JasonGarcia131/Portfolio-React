@@ -7,22 +7,24 @@ function Resume() {
             <Header />
             <main className="main-wrapper">
                 <article className="professional-summary-wrapper">
-                    <h2>Professional Summary</h2>
+                    <h1>Professional Summary</h1>
                     <p>
-                        5+ years warehouse supervisor experience. Job responsibilities included training, monitoring, and leading teams of 6-15.
-                        Environment is very fast paced and agile. Problem solving was a key skill to have in order to execute daily tasks.
-                        I've completed a program that exposed me to full stack development technologies like Javascript, Typescript, Express, React, Python, Flask, and Sass.
-                        I built single page applications as well as full stack MERN & PERN applications and deployed them through Heroku and AWS. Also, experience with
-                        git commands in the terminal.
+                        Junior software developer with experience in developing and designing web applications using HTML,
+                        CSS, JavaScript, Angular, Node.js, and React. Adept at developing and deploying complex backend
+                        systems, web services and databases. 5+ years in warehouse management strengthened team leader
+                        and collaborating skills.
                     </p>
                 </article>
                 <div className="article-flex">
                     <div>
                         <article className="experience-article">
+                            <h2>Education</h2>
+                            <p>Software Development- California State University Long Beach</p>
+
                             <h2>Experience</h2>
 
                             <p>01/2019-current</p>
-                            <h3><span style={{fontWeight: "600"}}>Warehouse Supervisor</span> - Deluxity Inc</h3>
+                            <h3><span style={{ fontWeight: "600" }}>Warehouse Supervisor</span> - Deluxity Inc</h3>
                             <p>
                                 Oversee and coordinate general warehouse operations which
                                 included: Shipping, Receiving, Inventory Management using WMS,
@@ -31,7 +33,7 @@ function Resume() {
                         </article>
                         <article className="experience-article">
                             <p>2017-2019</p>
-                            <h3><span style={{fontWeight: "600"}}>Warehouse Supervisor</span> - Dolphin International</h3>
+                            <h3><span style={{ fontWeight: "600" }}>Warehouse Supervisor</span> - Dolphin International</h3>
                             <p>
                                 Managed a team of 15 warehouse employees to meet and improve
                                 a set productivity time limit in an Import/Export live fish warehouse.
@@ -42,7 +44,7 @@ function Resume() {
                         </article>
                         <article className="experience-article">
                             <p>01/2018-current</p>
-                            <h3><span style={{fontWeight: "600"}}>Supplemental Instructor/ Tutor</span> - El Camino College</h3>
+                            <h3><span style={{ fontWeight: "600" }}>Supplemental Instructor/ Tutor</span> - El Camino College</h3>
                             <p>
                                 Lead after-class study sessions at El Camino College. The goal
                                 was to create a collaborative learning environment where students were taught how
