@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header {
@@ -27,9 +27,15 @@ a {
   color: white;
 }
 
-main{
+main {
   position: relative;
   top: 100px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  border-bottom: 1px solid black;
 }
 
 .contact-info-wrapper {
@@ -51,11 +57,11 @@ main{
   margin: 5x;
 }
 
-.about-me{
+.about-me {
   margin: 20%;
 }
 
-.project-container-scroll{
+.project-container-scroll {
   background-color: white;
   padding: 10px;
 }
@@ -74,37 +80,21 @@ main{
   color: black;
 }
 
-.project-card-wrapper{
+.project-card-wrapper {
   margin: 20px;
   height: 400px;
 }
 
-#img-carousel {
+.project-thumbnail {
   width: 100%;
-  height: 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  z-index: 2;
-}
-
-.project-thumbnail{
-  background-color: transparent;
-  cursor: pointer;
-  width: 33%;
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 .description {
   width: 100%;
-  height: 40%;
-  overflow:scroll;
+  overflow: scroll;
 }
 
-.description > p{
+.description>p {
   width: 70%;
   margin: 0 auto;
 }
@@ -119,41 +109,58 @@ main{
   align-items: center;
 }
 
-.project-links > a{
+.project-links>a {
   color: black;
 
 }
+
 .App {
   text-align: center;
 }
 
-.about-page-wrapper{
+.about-page-wrapper {
   width: 50%;
   margin: 40% auto;
   display: flex;
   flex-direction: row;
 }
 
-.about-page-wrapper > div{
+.about-page-wrapper>div {
   width: 50%;
-  
+
 }
 
-.project-wrapper{
+.margin {
+  margin: 10px;
+}
+
+.project-wrapper {
   background-color: white;
   padding: 20px;
 }
+
+.description {
+  position: relative;
+  top: -14%;
+}
+
+.contact-dropdown {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
 @media only screen and (min-width: 540px) {
 
-  header{
+  header {
     font-size: .8rem;
   }
 
-  main{
+  main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .contact-info-wrapper {
@@ -161,22 +168,22 @@ main{
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .header-links {
-    width: 30%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .project-wrapper{
-    height: 400px;
+  .project-wrapper {
+    height: 500px;
     overflow: scroll;
     background-color: white;
     border: inset;
     color: black;
   }
 
-  .project-container{
+  .project-container {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -185,20 +192,20 @@ main{
     margin-right: 50px;
   }
 
-  .project-container-scroll{
+  .project-container-scroll {
     height: 400px;
     overflow: scroll;
   }
 
-  #img-carousel{
+  #img-carousel {
     background-size: cover;
   }
 
-  .card-wrapper{
+  .card-wrapper {
     height: 100%;
   }
 
-  .about-me{
+  .about-me {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -206,7 +213,13 @@ main{
     align-items: center;
   }
 
-  .about-me > h1{
+  .app-name {
+    width: 50%;
+    margin: 10px auto;
+    border-bottom: 1px solid black;
+  }
+
+  .about-me>h1 {
     font-size: 3rem;
   }
 
@@ -218,16 +231,23 @@ main{
     align-items: center;
   }
 
-  .about-image{
+  .about-image {
     width: 50%
   }
 
-  .about-image > img{
+  .about-image>img {
     width: 100%;
   }
 
-  .description-wrapper{
+  .description-wrapper {
     margin: 10px;
   }
 
+}
+
+@media only screen and (max-width: 1020px) {
+  .contact-info-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

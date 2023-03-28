@@ -15,8 +15,6 @@ aside {
 }
 
 .article-flex {
-    background: linear-gradient(to right, #d1d0d0, #ffffff);
-    color: black;
     background-color: linear;
     display: flex;
     flex-direction: row;
@@ -31,6 +29,7 @@ aside {
 
 .professional-summary-wrapper {
     width: 70%;
+    border-bottom: 1px solid white;
     text-align: center;
     margin: 0 auto;
 }
@@ -43,8 +42,11 @@ aside {
 @media only screen and (min-width: 540px) {
 
     .main-wrapper {
-        margin-top: 0;
+        margin-top: 50px;
     }
 
+    .professional-summary-wrapper{
+        width: 100%;
+    }
 
 }

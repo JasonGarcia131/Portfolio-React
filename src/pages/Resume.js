@@ -1,7 +1,7 @@
-import "./Resume.css"
-import Header from "../components/Header"
-function Resume() {
+import "./Resume.css";
+import Header from "../components/Header";
 
+function Resume() {
     return (
         <div>
             <Header />
@@ -79,7 +79,7 @@ function Resume() {
 
             </main>
         </div>
-    )
+    );
 }
 
-export default Resume
+export default Resume;
