@@ -3,27 +3,39 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useState } from "react";
 
+
+const contactClicked = {
+    background: "black",
+    color: "white"
+}
+
+const contactNotClicked = {
+    background: "white",
+    color: "black"
+}
+
 function Header() {
 
+    //Controls styling of contact me div and rendering of drop down menu.
     const [isContact, setIsContact] = useState(false);
 
+    //Changes elements opacity to show current page. 
     const BASEURL = "https://jasongarcia131.github.io/Portfolio-React/#/"
     const pathname = window.location.href
-
     const home = pathname === `${BASEURL}` ? <p style={{ opacity: ".5" }}><Link to="/">Home</Link></p> : <p><Link to="/">Home</Link></p>
     const aboutMe = pathname === `${BASEURL}AboutMe` ? <p style={{ opacity: ".5" }}><Link to="/AboutMe">About Me</Link></p> : <p><Link to="/AboutMe">About Me</Link></p>
-    const resume = pathname === `${BASEURL}Resume` ? <p style={{ opacity: ".5" }}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
+    const resume = pathname === `${BASEURL}Resume` ? <p  style={{ opacity: ".5" }}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
 
     return (
         <header>
             <div className="header-links">
-                {home}
-                {resume}
-                {aboutMe}
-                <p>
+                <div className="slideIn" id="fifthSlide">{home}</div>
+                <div className="slideIn" id="fourthSlide">{resume}</div>
+                <div className="slideIn" id="thirdSlide">{aboutMe}</div>
+                <p className="slideIn" id="secondSlide">
                     <a href="https://github.com/JasonGarcia131" target="_blank" rel="noreferrer" >GitHub</a>
                 </p>
-                <p className="contact-button" onClick={() => setIsContact(!isContact)}>Contact Me: </p>
+                <p className="contact-button slideIn" id="firstSlide" style={isContact ? contactClicked : contactNotClicked} onClick={() => setIsContact(!isContact)}>Contact Me: </p>
             </div>
             {isContact ? (
                 <div className="contact-dropdown">

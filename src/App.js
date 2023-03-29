@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
 
+  //Card for projects
   const mappedProjectCards = ProjectData.map((project, i) => {
     const { imgUrl1, name, techStack, description, codeLink, pageLink } = project;
     return (
@@ -19,12 +20,12 @@ function App() {
         pageLink={pageLink}
       />
     )
-  })
+  });
 
   return (
     <div className="App">
       <Header/>
-      <main>
+      <main className='fadeInAnimation'>
         <div className='about-me'>
           <h1>Jason Garcia</h1>
           <p>Fullstack developer eager to collaborate and build.</p>

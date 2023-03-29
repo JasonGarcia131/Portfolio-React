@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
+
 }
 
 .contact-info-wrapper {
@@ -52,23 +53,25 @@ header {
 
 }
 
-.contact-button{
+.contact-button {
     background-color: white;
     padding: 5px;
     font-weight: 700;
     color: black;
     border: 1px solid black;
+    
 }
 
-.contact-button:active{
+.contact-button:active {
     background-color: gray;
+    border: 1px solid white;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     cursor: pointer;
 }
 
-.contact-dropdown{
+.contact-dropdown {
     padding: 10px;
     position: absolute;
     color: white;
@@ -78,6 +81,39 @@ header {
     /* background-color: rgba(0, 0, 0, 0.315); */
     border: 1px solid rgb(143, 143, 143);
     box-shadow: 5px -5px 2px rgb(225, 224, 224);
+    animation: fadeIn 1s 0s backwards;
+}
+
+
+/* Animation for header links */
+#firstSlide {
+    animation: .5s ease-in 0s 1 slideInFromLeft;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+#secondSlide {
+    animation: .6s ease-in 0.2s 1 slideInFromLeft;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+#thirdSlide {
+    animation: .7s ease-in 0.4s 1 slideInFromLeft;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+#fourthSlide {
+    animation: .8s ease-in 0.6s 1 slideInFromLeft;
+    transform: scale(0);
+    animation-fill-mode: forwards;
+}
+
+#fifthSlide {
+    animation: .9s ease-in 0.8s 1 slideInFromLeft;
+    transform: scale(0);
+    animation-fill-mode: forwards;
 
 }
 
@@ -90,6 +126,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.fadeInAnimation{
+    animation: fadeIn 4.0s 1.7s backwards;
 }
 
 .about-me {
@@ -140,7 +180,7 @@ main {
     color: black;
 }
 
-.main-wrapper{
+.main-wrapper {
     margin-top: 15%;
 }
 
@@ -188,5 +228,26 @@ main {
 
     .row {
         width: 100%;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: scale(0);
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+
+    100% {
+        background-color: rgba(0,0,0, 1);        
     }
 }
