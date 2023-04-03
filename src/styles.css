@@ -40,7 +40,6 @@ header {
 .header-links {
     width: 100%;
     text-align: right;
-    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -208,7 +207,7 @@ main {
     main {
         display: flex;
         flex-direction: row;
-        margin: 10% auto;
+        margin: 2% auto;
     }
 
 
