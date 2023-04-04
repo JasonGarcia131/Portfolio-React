@@ -171,6 +171,17 @@ main {
     justify-content: space-around;
 }
 
+.project-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.project-links > a{
+    color: black;
+}
+
 
 /* carousel */
 
@@ -191,6 +202,13 @@ main {
     margin-top: 15%;
 }
 
+.description{
+    padding: 10px;
+}
+
+.description > :nth-child(2){
+    font-style: italic;
+}
 
 @media only screen and (min-width: 620px) {
     main {

@@ -1,6 +1,6 @@
 # My Portfolio
   
-  I designed this portfolio to showcase my projects I have built throughout the course of my software development career.
+  I designed this portfolio to showcase my projects I have built for small businesses and for fun.
   
 # Use This For Your Own Portfolio
   1. Clone this repo.
