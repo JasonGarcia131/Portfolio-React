@@ -20,7 +20,7 @@ export const ProjectData = [
         imgUrl3: img12,
         name: "Stars",
         techStack: "Mongoose, Express, React, Node",
-        description: "Stars is a journaling app that allows users to switch between themes when journaling an entry. The light theme entries are for goals, self-affirmations, and positive notes. The shadow theme are for deeper, more personal entries.",
+        description: "Stars is a journaling app that allows users to register, login, switch between themes, publish public or private comments, and upload profile/ header pictures. User authentication and authorization is achieved using jwt tokens. This app was built to understand the workflow of user authentication and authorization with jwt tokens.",
         codeLink: "https://github.com/JasonGarcia131/Stars-Frontend",
         pageLink: "https://socialstars.onrender.com/"
     },
