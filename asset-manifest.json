@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.4f87c902.css",
+    "main.css": "/Portfolio-React/static/css/main.555761d8.css",
     "main.js": "/Portfolio-React/static/js/main.387b67a1.js",
     "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
@@ -15,11 +15,11 @@
     "static/media/error-message-thumbnail.png": "/Portfolio-React/static/media/error-message-thumbnail.1084c3f3528f70fbdeef.png",
     "static/media/error-thumbnail.png": "/Portfolio-React/static/media/error-thumbnail.5ac5ad5df0a84abe8d8c.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.4f87c902.css.map": "/Portfolio-React/static/css/main.4f87c902.css.map",
+    "main.555761d8.css.map": "/Portfolio-React/static/css/main.555761d8.css.map",
     "main.387b67a1.js.map": "/Portfolio-React/static/js/main.387b67a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f87c902.css",
+    "static/css/main.555761d8.css",
     "static/js/main.387b67a1.js"
   ]
 }
