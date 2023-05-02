@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.555761d8.css",
-    "main.js": "/Portfolio-React/static/js/main.36020c63.js",
+    "main.js": "/Portfolio-React/static/js/main.5101bc50.js",
     "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
     "static/media/rules-thumbnail.png": "/Portfolio-React/static/media/rules-thumbnail.44a5585d34b5aeee09e3.png",
@@ -13,13 +13,16 @@
     "static/media/plan-thumbnail.png": "/Portfolio-React/static/media/plan-thumbnail.0b6622e48d4277a92d60.png",
     "static/media/monday-thumbnail.png": "/Portfolio-React/static/media/monday-thumbnail.1c6745fa360dddc06b9b.png",
     "static/media/error-message-thumbnail.png": "/Portfolio-React/static/media/error-message-thumbnail.1084c3f3528f70fbdeef.png",
+    "static/media/card-payment-front.png": "/Portfolio-React/static/media/card-payment-front.fb73694a90a0453351f9.png",
     "static/media/error-thumbnail.png": "/Portfolio-React/static/media/error-thumbnail.5ac5ad5df0a84abe8d8c.png",
+    "static/media/card-payment-back.png": "/Portfolio-React/static/media/card-payment-back.57d39e527b7ab7577ceb.png",
+    "static/media/card-payment-debit-card.png": "/Portfolio-React/static/media/card-payment-debit-card.29c6ce348e1777a75028.png",
     "index.html": "/Portfolio-React/index.html",
     "main.555761d8.css.map": "/Portfolio-React/static/css/main.555761d8.css.map",
-    "main.36020c63.js.map": "/Portfolio-React/static/js/main.36020c63.js.map"
+    "main.5101bc50.js.map": "/Portfolio-React/static/js/main.5101bc50.js.map"
   },
   "entrypoints": [
     "static/css/main.555761d8.css",
-    "static/js/main.36020c63.js"
+    "static/js/main.5101bc50.js"
   ]
 }
