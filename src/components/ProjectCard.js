@@ -12,8 +12,8 @@ function ProjectCard(props) {
                 <p>{description}</p>
             </div>
             <div className="project-links">
-                <a href={codeLink}>Code</a>
-                <a href={pageLink}>Page</a>
+                <a href={codeLink}  target="_blank" rel="noreferrer" >Code</a>
+                <a href={pageLink}  target="_blank" rel="noreferrer" >Page</a>
             </div>
         </div>
     );

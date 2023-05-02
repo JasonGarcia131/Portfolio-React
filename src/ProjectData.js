@@ -10,6 +10,9 @@ import img12 from "./images/profile-thumbnail.png";
 import img13 from "./images/timecard-thumbnail.png";
 import img14 from "./images/monday-thumbnail.png";
 import img15 from "./images/error-thumbnail.png";
+import img6 from "./images/card-payment-front.png";
+import img16 from "./images/card-payment-back.png";
+import img17 from "./images/card-payment-debit-card.png";
 
 
 
@@ -45,14 +48,14 @@ export const ProjectData = [
         pageLink: "https://jasongarcia131.github.io/Time-Card-Calculator/"
     },
     {
-        imgUrl1: img7,
-        imgUrl2: img8,
-        imgUrl3: img9,
-        name: "Container Unloading Plan",
+        imgUrl1: img6,
+        imgUrl2: img16,
+        imgUrl3: img17,
+        name: "Card Payment",
         techStack: "React",
-        description: "This app is a tool to be used in a warehouse environment. User inputs box dimensions and total boxes and the app generates a floor plan of columns and rows for the boxes. I created this app to help our warehouse unload containers more efficiently.",
-        codeLink: "https://github.com/JasonGarcia131/Container-Unloading-Planner.git",
-        pageLink: "https://container-unloading-plan.herokuapp.com/"
+        description: "I built this app for fun. I came across an online checkout interface with a similar design and replicated for practice. User input is rendered in the digital card simulating a debit/ credit card.",
+        codeLink: "https://github.com/JasonGarcia131/card-payment",
+        pageLink: "https://jasongarcia131.github.io/card-payment/"
     },
    
 ]
