@@ -53,13 +53,11 @@ header {
 }
 
 .contact-button {
-    background-color: white;
-    padding: 5px;
     font-weight: 700;
-    color: black;
+    color: white;
     border: 1px solid black;
     text-decoration: underline;
-    
+    background-color: black;
 }
 
 .contact-button:active {
@@ -74,10 +72,8 @@ header {
 .contact-dropdown {
     padding: 10px;
     position: absolute;
-    color: white;
-    background: black;
     right: 10%;
-    top: 75%;
+    top: 100%;
     /* background-color: rgba(0, 0, 0, 0.315); */
     border: 1px solid rgb(143, 143, 143);
     box-shadow: 5px -5px 2px rgb(225, 224, 224);

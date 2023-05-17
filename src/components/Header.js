@@ -4,16 +4,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { useState } from "react";
 
 
-const contactClicked = {
-    background: "black",
-    color: "white"
-}
-
-const contactNotClicked = {
-    background: "white",
-    color: "black"
-}
-
 function Header() {
 
     //Controls styling of contact me div and rendering of drop down menu.
@@ -35,7 +25,7 @@ function Header() {
                 <p className="slideIn" id="secondSlide">
                     <a href="https://github.com/JasonGarcia131" target="_blank" rel="noreferrer" >GitHub</a>
                 </p>
-                <p className="contact-button slideIn" id="firstSlide" style={isContact ? contactClicked : contactNotClicked} onClick={() => setIsContact(!isContact)}>Contact Me: </p>
+                <p className="contact-button slideIn" id="firstSlide" onClick={() => setIsContact(!isContact)}>Contact Me: </p>
             </div>
             {isContact ? (
                 <div className="contact-dropdown">
