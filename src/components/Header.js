@@ -14,18 +14,20 @@ function Header() {
     const pathname = window.location.href
     const home = pathname === `${BASEURL}` ? <p style={{ opacity: ".5" }}><Link to="/">Home</Link></p> : <p><Link to="/">Home</Link></p>
     const aboutMe = pathname === `${BASEURL}AboutMe` ? <p style={{ opacity: ".5" }}><Link to="/AboutMe">About Me</Link></p> : <p><Link to="/AboutMe">About Me</Link></p>
-    const resume = pathname === `${BASEURL}Resume` ? <p  style={{ opacity: ".5" }}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
+    const resume = pathname === `${BASEURL}Resume` ? <p style={{ opacity: ".5" }}><Link to="/Resume">Resume</Link></p> : <p><Link to="/Resume">Resume</Link></p>
 
     return (
         <header>
             <div className="header-links">
                 <div className="slideIn" id="fifthSlide">{home}</div>
-                <div className="slideIn" id="fourthSlide">{resume}</div>
-                <div className="slideIn" id="thirdSlide">{aboutMe}</div>
-                <p className="slideIn" id="secondSlide">
-                    <a href="https://github.com/JasonGarcia131" target="_blank" rel="noreferrer" >GitHub</a>
-                </p>
-                <p className="contact-button slideIn" id="firstSlide" onClick={() => setIsContact(!isContact)}>Contact Me: </p>
+                <div id="header-links-right">
+                    <div className="slideIn" id="fourthSlide">{resume}</div>
+                    <div className="slideIn" id="thirdSlide">{aboutMe}</div>
+                    <p className="slideIn" id="secondSlide">
+                        <a href="https://github.com/JasonGarcia131" target="_blank" rel="noreferrer" >GitHub</a>
+                    </p>
+                    <p className="contact-button slideIn" id="firstSlide" onClick={() => setIsContact(!isContact)}>Contact Me: </p>
+                </div>
             </div>
             {isContact ? (
                 <div className="contact-dropdown">
