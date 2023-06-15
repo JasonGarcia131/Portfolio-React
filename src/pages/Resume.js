@@ -43,7 +43,7 @@ function Resume() {
                             </p>
                         </article>
                         <article className="experience-article">
-                            <p>01/2018-current</p>
+                            <p>01/2018-01/2019</p>
                             <h3><span style={{ fontWeight: "600" }}>Supplemental Instructor/ Tutor</span> - El Camino College</h3>
                             <p>
                                 Lead after-class study sessions at El Camino College. The goal
