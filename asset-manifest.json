@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.5844755d.css",
-    "main.js": "/Portfolio-React/static/js/main.ce51ffa6.js",
+    "main.css": "/Portfolio-React/static/css/main.1ecb315e.css",
+    "main.js": "/Portfolio-React/static/js/main.a9355961.js",
     "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
     "static/media/timecard-thumbnail.png": "/Portfolio-React/static/media/timecard-thumbnail.43ebe90bb4dca4e26cb4.png",
     "static/media/card-payment-front.png": "/Portfolio-React/static/media/card-payment-front.fb73694a90a0453351f9.png",
-    "static/media/instagram-clone-thumbnail.png": "/Portfolio-React/static/media/instagram-clone-thumbnail.74b61e5d73d6f24fc088.png",
+    "static/media/instagram-clone-thumbnail.png": "/Portfolio-React/static/media/instagram-clone-thumbnail.4401afd74d2b7a183f84.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.5844755d.css.map": "/Portfolio-React/static/css/main.5844755d.css.map",
-    "main.ce51ffa6.js.map": "/Portfolio-React/static/js/main.ce51ffa6.js.map"
+    "main.1ecb315e.css.map": "/Portfolio-React/static/css/main.1ecb315e.css.map",
+    "main.a9355961.js.map": "/Portfolio-React/static/js/main.a9355961.js.map"
   },
   "entrypoints": [
-    "static/css/main.5844755d.css",
-    "static/js/main.ce51ffa6.js"
+    "static/css/main.1ecb315e.css",
+    "static/js/main.a9355961.js"
   ]
 }
