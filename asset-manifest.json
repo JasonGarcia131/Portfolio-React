@@ -1,28 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.3ed87618.css",
-    "main.js": "/Portfolio-React/static/js/main.638fc555.js",
+    "main.css": "/Portfolio-React/static/css/main.5844755d.css",
+    "main.js": "/Portfolio-React/static/js/main.ce51ffa6.js",
     "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
-    "static/media/rules-thumbnail.png": "/Portfolio-React/static/media/rules-thumbnail.44a5585d34b5aeee09e3.png",
-    "static/media/signup-thumbnail.png": "/Portfolio-React/static/media/signup-thumbnail.356079366b8c0d666464.png",
-    "static/media/gameplay-thumbnail.png": "/Portfolio-React/static/media/gameplay-thumbnail.bfae290d1cfcf0a1834b.png",
-    "static/media/profile-thumbnail.png": "/Portfolio-React/static/media/profile-thumbnail.edef2f7612cc14dbb0eb.png",
-    "static/media/containerunloadingplan-homepage-thumbnail.png": "/Portfolio-React/static/media/containerunloadingplan-homepage-thumbnail.c1c63c3136e675f3ff88.png",
     "static/media/timecard-thumbnail.png": "/Portfolio-React/static/media/timecard-thumbnail.43ebe90bb4dca4e26cb4.png",
-    "static/media/plan-thumbnail.png": "/Portfolio-React/static/media/plan-thumbnail.0b6622e48d4277a92d60.png",
-    "static/media/monday-thumbnail.png": "/Portfolio-React/static/media/monday-thumbnail.1c6745fa360dddc06b9b.png",
-    "static/media/error-message-thumbnail.png": "/Portfolio-React/static/media/error-message-thumbnail.1084c3f3528f70fbdeef.png",
     "static/media/card-payment-front.png": "/Portfolio-React/static/media/card-payment-front.fb73694a90a0453351f9.png",
-    "static/media/error-thumbnail.png": "/Portfolio-React/static/media/error-thumbnail.5ac5ad5df0a84abe8d8c.png",
-    "static/media/card-payment-back.png": "/Portfolio-React/static/media/card-payment-back.57d39e527b7ab7577ceb.png",
-    "static/media/card-payment-debit-card.png": "/Portfolio-React/static/media/card-payment-debit-card.29c6ce348e1777a75028.png",
+    "static/media/instagram-clone-thumbnail.png": "/Portfolio-React/static/media/instagram-clone-thumbnail.74b61e5d73d6f24fc088.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.3ed87618.css.map": "/Portfolio-React/static/css/main.3ed87618.css.map",
-    "main.638fc555.js.map": "/Portfolio-React/static/js/main.638fc555.js.map"
+    "main.5844755d.css.map": "/Portfolio-React/static/css/main.5844755d.css.map",
+    "main.ce51ffa6.js.map": "/Portfolio-React/static/js/main.ce51ffa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ed87618.css",
-    "static/js/main.638fc555.js"
+    "static/css/main.5844755d.css",
+    "static/js/main.ce51ffa6.js"
   ]
 }
