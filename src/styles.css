@@ -48,12 +48,17 @@ header {
 
 #header-links-right{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 #header-links-right > div, p{
-    margin-left: 20px ;
+    margin: 0 20px ;
+}
+
+#header-links-right > p{
+    margin: 0 20px ;
 }
 
 .mailIcon {
@@ -128,6 +133,7 @@ header {
     animation-fill-mode: forwards;
 
 }
+
 
 /* Main Content */
 
@@ -231,6 +237,11 @@ main {
         margin-top: 5%;
     }
 
+    #header-links-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -243,7 +254,6 @@ main {
         flex-direction: row;
         margin: 2% auto;
     }
-
 
     .contact-info-wrapper {
         max-width: 1360px;

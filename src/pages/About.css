@@ -17,3 +17,7 @@
 .description-wrapper > a{
     margin-right: 20px;
 }
+
+.description-wrapper > p{
+    margin: 21px 0;
+}
