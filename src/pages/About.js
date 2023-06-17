@@ -14,8 +14,9 @@ function About() {
                 <div className="description-wrapper">
                     <h1>About Me</h1>
                     <p> 
-                        At the age of 21, I was appointed the position of warehouse supervisor for a transship business. My foundation of skills were built through trial and error: 
-                        strengths were highlighted and weaknesses were recognized through this journey of professional self-development. As I branch out into a new career path in Software Development, I bring along the experience 
+                        At the age of 21, I was appointed the position of warehouse supervisor for a transship business. My foundation of skills were built through trial and error.
+                        Throughout the years, my strengths were highlighted, but, most importantly, my weaknesses were recognized through this journey of professional self-development. 
+                        As I branch out into a new career path in Software Development, I bring along the experience 
                         and passion to create, collaborate, and build.
                     </p>
                     <Link to="/">Home</Link>
