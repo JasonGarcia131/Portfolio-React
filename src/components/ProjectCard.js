@@ -13,7 +13,10 @@ function ProjectCard(props) {
             </div>
             <div className="project-links">
                 <a href={codeLink}  target="_blank" rel="noreferrer" >Code</a>
-                <a href={pageLink}  target="_blank" rel="noreferrer" >Page</a>
+                {
+                    pageLink === "#" ? <a>In progess</a> : <a href={pageLink}  target="_blank" rel="noreferrer" >Page</a>
+                }
+                
             </div>
         </div>
     );

@@ -18,8 +18,8 @@ export const ProjectData = [
         name: "Instagram Clone",
         techStack: "React Native, Expo, Firebase",
         description: "Instagram clone demonstrating mobile UX/UI desgin. Full stack application with authentication and authorization with firebase. Url image uploader with form validation with Formik.",
-        codeLink: "https://github.com/JasonGarcia131/Halloween-BlackJack",
-        pageLink: "https://jasongarcia131.github.io/Halloween-BlackJack/"
+        codeLink: "https://github.com/JasonGarcia131/Instagram-Clone",
+        pageLink: "#"
     },
     {
         imgUrl1: img1,
