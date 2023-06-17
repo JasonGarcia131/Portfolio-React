@@ -12,7 +12,7 @@ function Resume() {
                         Junior software developer with experience in developing and designing web applications using HTML,
                         CSS, JavaScript, Angular, Node.js, and React. Adept at developing and deploying complex backend
                         systems, web services and databases. 5+ years in warehouse management strengthened team leader
-                        and collaborating skills.
+                        and collaborative skills.
                     </p>
                 </article>
                 <div className="article-flex">
