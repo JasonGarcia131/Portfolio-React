@@ -28,7 +28,7 @@ function App() {
       <main className='fadeInAnimation'>
         <div className='about-me'>
           <h1>Jason Garcia</h1>
-          <p>Fullstack developer eager to collaborate and build.</p>
+          <p>Fullstack developer. Let's collaborate and build.</p>
           <div className='row'>
             <Link to="/AboutMe">About Me</Link>
             <a href="https://github.com/JasonGarcia131/Portfolio-React.git">Portfolio Source Code</a>

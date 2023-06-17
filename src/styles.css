@@ -156,8 +156,12 @@ main {
 }
 
 .about-me > h1 {
-    margin: 0;
+    margin-bottom: 10px;
     font-size: 4rem;
+}
+
+.about-me > p {
+    margin-bottom: 5px;
 }
 
 .about-me> a {
