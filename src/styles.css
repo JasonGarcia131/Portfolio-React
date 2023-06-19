@@ -39,6 +39,7 @@ header {
 
 .header-links {
     width: 100%;
+    margin: 5px;
     text-align: right;
     display: flex;
     flex-direction: row;
@@ -54,10 +55,6 @@ header {
 
 
 #header-links-right > div {
-    margin: 0 20px ;
-}
-
-#header-links-right > p{
     margin: 0 20px ;
 }
 
@@ -98,6 +95,7 @@ header {
 
 
 /* Animation for header links */
+
 #firstSlide {
     -webkit-animation: .5s ease-in 0s 1 slideInFromLeft;
     animation: .5s ease-in 0s 1 slideInFromLeft;
@@ -245,6 +243,11 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        gap: 15px;
+    }
+
+    #header-links-right > div{
+        margin: 0;
     }
 }
 
