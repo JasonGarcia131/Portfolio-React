@@ -53,7 +53,7 @@ header {
 }
 
 
-#header-links-right > div, p{
+#header-links-right > div {
     margin: 0 20px ;
 }
 
