@@ -40,17 +40,13 @@ header {
 .header-links {
     width: 100%;
     margin: 5px;
-    text-align: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
 }
 
 #header-links-right{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 
@@ -242,7 +238,8 @@ main {
     #header-links-right{
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: right;
+        align-items: center;
         gap: 15px;
     }
 

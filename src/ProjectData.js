@@ -3,6 +3,7 @@ import img10 from "./images/startsHomePage.png";
 import img13 from "./images/timecard-thumbnail.png";
 import img6 from "./images/card-payment-front.png";
 import img18 from "./images/instagram-clone-thumbnail.png";
+import img2 from "./images/twitter-interface-thumbnail.png"
 
 export const ProjectData = [
     {
@@ -36,6 +37,14 @@ export const ProjectData = [
         description: "This app calculates employee hours worked in a week. Simple app designed specifically for the company I currently work for. Simple frontend project with a custom time conversion function for employee punch in/ punch out.",
         codeLink: "https://github.com/JasonGarcia131/Time-Card-Calculator",
         pageLink: "https://jasongarcia131.github.io/Time-Card-Calculator/"
+    },
+    {
+        imgUrl1: img2,
+        name: "Twitter Message Interface",
+        techStack: "React",
+        description: "Twitter message interfacew with a search bar function and screen stack navigation. Data is pulled from a local data file",
+        codeLink: "https://github.com/JasonGarcia131/Twitter-Messaging-Interface",
+        pageLink: "https://jasongarcia131.github.io/Twitter-Messaging-Interface/"
     },
     {
         imgUrl1: img6,

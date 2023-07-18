@@ -19,14 +19,14 @@ function Header() {
     return (
         <header>
             <div className="header-links">
-                <div className="slideIn" id="fifthSlide">{home}</div>
                 <div id="header-links-right">
+                    <div className="slideIn" id="fifthSlide">{home}</div>
                     <div className="slideIn" id="fourthSlide">{resume}</div>
                     <div className="slideIn" id="thirdSlide">{aboutMe}</div>
-                    <p className="slideIn" id="secondSlide">
+                    <div className="slideIn" id="secondSlide">
                         <a href="https://github.com/JasonGarcia131" target="_blank" rel="noreferrer" >GitHub</a>
-                    </p>
-                    <p className="contact-button slideIn" id="firstSlide" onClick={() => setIsContact(!isContact)}>Contact Me: </p>
+                    </div>
+                    <div className="contact-button slideIn" id="firstSlide" onClick={() => setIsContact(!isContact)}>Contact Me: </div>
                 </div>
             </div>
             {isContact ? (
