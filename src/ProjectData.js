@@ -42,7 +42,7 @@ export const ProjectData = [
         imgUrl1: img2,
         name: "Twitter Message Interface",
         techStack: "React",
-        description: "Twitter message interfacew with a search bar function and screen stack navigation. Data is pulled from a local data file",
+        description: "Twitter message interface with a search bar function and screen stack navigation. Data is pulled from a local data file",
         codeLink: "https://github.com/JasonGarcia131/Twitter-Messaging-Interface",
         pageLink: "https://jasongarcia131.github.io/Twitter-Messaging-Interface/"
     },
