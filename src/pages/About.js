@@ -14,10 +14,9 @@ function About() {
                 <div className="description-wrapper">
                     <h1>About Me</h1>
                     <p> 
-                        At the age of 21, I was appointed the position of warehouse supervisor for a transship business. My foundation of skills were built through trial and error.
+                        With 5+ years warehouse supervisor experience and 2 years software develpoment experience, I have built a mindset of efficiency, excecution and leadership.
                         Throughout the years, my strengths were highlighted, but, most importantly, my weaknesses were recognized through this journey of professional self-development. 
-                        As I branch out into a new career path in Software Development, I bring along the experience 
-                        and passion to create, collaborate, and build.
+                        As I branch out into a new career path in Software Development, I bring along the experience and passion to create, collaborate, and build.
                     </p>
                     <Link to="/">Home</Link>
                     <a href="https://www.linkedin.com/in/jason-garcia-00b71b245/">LinkedIn</a>

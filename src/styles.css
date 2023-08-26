@@ -104,6 +104,8 @@ header {
     animation: .6s ease-in 0.2s 1 slideInFromLeft;
     transform: scale(0);
     animation-fill-mode: forwards;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #thirdSlide {
