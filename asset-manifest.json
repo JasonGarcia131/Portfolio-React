@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.886e3c98.css",
-    "main.js": "/Portfolio-React/static/js/main.9c244310.js",
+    "main.css": "/Portfolio-React/static/css/main.1ef25197.css",
+    "main.js": "/Portfolio-React/static/js/main.70d271f4.js",
     "static/media/startsHomePage.png": "/Portfolio-React/static/media/startsHomePage.5e98ff3bdb5b1e539f61.png",
     "static/media/blackjack-homepage-thumbnail.png": "/Portfolio-React/static/media/blackjack-homepage-thumbnail.3085908538cbf5a95f91.png",
     "static/media/timecard-thumbnail.png": "/Portfolio-React/static/media/timecard-thumbnail.43ebe90bb4dca4e26cb4.png",
-    "static/media/card-payment-front.png": "/Portfolio-React/static/media/card-payment-front.fb73694a90a0453351f9.png",
+    "static/media/redux-art-gallery-thumbnail.png": "/Portfolio-React/static/media/redux-art-gallery-thumbnail.bde1006ea5baee9b7117.png",
+    "static/media/react-a-mole-thumbnail.png": "/Portfolio-React/static/media/react-a-mole-thumbnail.51a30251a52bb7d63aab.png",
     "static/media/instagram-clone-thumbnail.png": "/Portfolio-React/static/media/instagram-clone-thumbnail.4401afd74d2b7a183f84.png",
     "static/media/twitter-interface-thumbnail.png": "/Portfolio-React/static/media/twitter-interface-thumbnail.a5779aca36beec13f7ec.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.886e3c98.css.map": "/Portfolio-React/static/css/main.886e3c98.css.map",
-    "main.9c244310.js.map": "/Portfolio-React/static/js/main.9c244310.js.map"
+    "main.1ef25197.css.map": "/Portfolio-React/static/css/main.1ef25197.css.map",
+    "main.70d271f4.js.map": "/Portfolio-React/static/js/main.70d271f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.886e3c98.css",
-    "static/js/main.9c244310.js"
+    "static/css/main.1ef25197.css",
+    "static/js/main.70d271f4.js"
   ]
 }
